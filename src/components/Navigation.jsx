@@ -2,6 +2,7 @@ import { Nav } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import "../styles/style.css";
 
+// Navigation items with their corresponding paths and labels
 const navigationItems = [
   { path: "/About", label: "About Me" },
   { path: "/Contact", label: "Contact" },
@@ -9,6 +10,7 @@ const navigationItems = [
   { path: "/Resume", label: "Resume" },
 ];
 
+// Navigation component
 function Navigation() {
   return (
     <Nav variant="tabs" defaultActiveKey="/">
