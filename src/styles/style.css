@@ -1,0 +1,106 @@
+:root {
+    --light-white-green: #b8e1dd;
+  --white-green: #3a9188;
+  --dark-green: #044a42;
+  --black-green: #062925;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main container for the application layout */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-height: 100vh;
+}
+
+/* Styles for the header section */
+header {
+  background-color: var(--light-white-green);
+  padding: 1rem;
+}
+
+/* Styles for the navigation bar */
+nav {
+  background-color: var(--black-green);
+  padding: 1rem 0;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+nav ul li {
+  margin-left: 1rem;
+}
+
+nav ul li a,
+.nav-link {
+  color: var(--black-green);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: block;
+  text-align: right;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover,
+.nav-link:hover {
+  background-color: var(--white-green);
+}
+
+/* Main content styling */
+.content-area {
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Styles for the footer section */
+footer {
+  background-color: var(--light-white-green);
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+}
+
+.profile-image {
+  height: auto;
+  display: block;
+  margin: 3% auto;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 0.5rem 0;
+  }
+
+  .nav-link {
+    text-align: center;
+  }
+}

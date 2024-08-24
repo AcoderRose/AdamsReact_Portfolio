@@ -7,7 +7,7 @@ function Resume() {
       <h1>Resume</h1>
       <div className="coming-soon">
         <img
-          src="/images/Coming-Soon-Graphic.png"
+          src="./public/images/Coming-Soon-Graphic.jpg"
           alt="Coming Soon"
           className="coming-soon-image"
         />

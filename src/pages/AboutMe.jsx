@@ -3,7 +3,7 @@ import "../styles/style.css";
 // Main component for the About section
 export default function About() {
   // Content for the About section
-  const profileImageSrc = "/images/profilePicture.jpg";
+  const profileImageSrc = "./public/images/profilePicture.JPEG";
   const profileImageAlt = "Self portrait";
   const aboutTitle = "About Me:";
   const aboutParagraphs = [
