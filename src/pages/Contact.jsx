@@ -67,7 +67,7 @@ function Contact() {
   // JSX structure for the contact form
   return (
     <div className="contact-container">
-      <h1>Contact Me</h1>
+      <h1 id="bigger">Contact Me</h1>
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
