@@ -85,6 +85,7 @@ nav ul li a,
 nav ul li a:hover,
 .nav-link:hover {
   background-color: var(--middle-blue);
+  /* border: 4px solid var(--dark-blue); */
 }
 
 /* main content area */
@@ -95,19 +96,23 @@ nav ul li a:hover,
 }
 
 .profile-img {
-  width: 20%;
+  width: 18%;
 }
 
 .about-container {
-  width: 70%;
+  width: 65%;
   height: 100%;
   margin: 20px auto;
   padding: 20px;
   font-family: "Arial", sans-serif;
   color: var(--dark-blue);
-  background-color: #f9f9f9;
+  background-color: #f9f9f986;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#paragraph{
+  font-weight: 600;
 }
 
 /* footer styles */
@@ -124,7 +129,7 @@ footer {
 
 /* contact page styles */
 #bigger{
-  font-size: 36px;
+  font-size: 46px;
   font-weight: 600;
 }
 
@@ -135,12 +140,12 @@ footer {
   border: 1px solid var(--light-blue);
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  background-color: #f9f9f9;
+  background-color: #f9f9f986;
   text-align: center;
 }
 
 .contact-container h1 {
-  margin-bottom: 50px;
+  margin-bottom: 34px;
   font-size: 24px;
   color: var(--dark-blue);
 }
@@ -206,9 +211,9 @@ footer {
 }
 
 .portfolioHeading {
-  margin-bottom: 40px;
-  font-weight: 600;
-  font-size: 42px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 50px;
   color: #eee;
 }
 
@@ -217,6 +222,10 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+}
+
+.card{
+  background-color: #f9f9f999;
 }
 
 .projectCard {
@@ -259,6 +268,26 @@ footer {
 }
 
 /* resume styles */
+.skills{
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.resume-container {
+  width: 45%;
+  height: auto;
+  font-weight: 600;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  color: var(--dark-blue);
+  background-color: #f9f9f986;
+  border: 1px solid var(--light-blue);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
 .blue{
   font-weight: 600;
   font-size: 42px;
@@ -268,6 +297,11 @@ footer {
 .coming-soon-image {
   width: 500px;
   height: auto;
+}
+
+.skills-section ul {
+  list-style-type: none;
+  padding-left: 0;
 }
 
 /* responsive design */

@@ -16,12 +16,6 @@ const projectData = [
     githubLink: "https://github.com/jy8liu/UCI-Bootcamp-Project-1",
   },
   {
-    title: "Adams-Dev-Depot",
-    image: "/images/Screenshot-Adams-Dev-Depot.png",
-    projectLink: "https://acoderrose.github.io/Adams-Dev-Depot/",
-    githubLink: "https://github.com/AcoderRose/Adams-Dev-Depot",
-  },
-  {
     title: "ScriptSaga",
     image: "/images/Screenshot-ScriptSaga.PNG",
     projectLink: "https://acoderrose.github.io/Script-Saga/",
@@ -38,6 +32,12 @@ const projectData = [
     image: "/images/Screenshot-Note-Again.png",
     projectLink: "https://note-again.onrender.com",
     githubLink: "https://github.com/AcoderRose/Note-Again",
+  },
+  {
+    title: "Adams-Dev-Depot",
+    image: "/images/Screenshot-Adams-Dev-Depot.png",
+    projectLink: "https://acoderrose.github.io/Adams-Dev-Depot/",
+    githubLink: "https://github.com/AcoderRose/Adams-Dev-Depot",
   },
 ];
 

@@ -27,7 +27,7 @@ export default function About() {
         <div className="about-text">
           <h1 id="h1bigger">{aboutTitle}</h1>
           {aboutParagraphs.map((paragraph, index) => (
-            <p key={index}>{paragraph}</p>
+            <p id="paragraph" key={index}>{paragraph}</p>
           ))}
         </div>
       </div>
