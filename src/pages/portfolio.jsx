@@ -27,6 +27,18 @@ const projectData = [
     projectLink: "https://acoderrose.github.io/Script-Saga/",
     githubLink: "https://github.com/AcoderRose/Script-Saga",
   },
+  {
+    title: "PWA-ScribePro",
+    image: "/images/Screenshot-PWA-ScribePro.png",
+    projectLink: "https://pwa-scribepro.onrender.com/",
+    githubLink: "https://github.com/AcoderRose/PWA-ScribePro",
+  },
+  {
+    title: "Note-Again",
+    image: "/images/Screenshot-Note-Again.png",
+    projectLink: "https://note-again.onrender.com",
+    githubLink: "https://github.com/AcoderRose/Note-Again",
+  },
 ];
 
 // Portfolio component definition
