@@ -73,12 +73,12 @@ nav ul li a,
 .nav-link {
   color: var(--middle-blue);
   font-weight: 600;
-  font-size: 30px;
+  font-size: 28px;
   text-decoration: none;
   padding: 0.5rem 1rem;
   display: flex;
   align-items: center;
-  margin-left: 395px;
+  margin-left: 265px;
   transition: background-color 0.3s ease;
 }
 
