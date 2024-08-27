@@ -42,12 +42,14 @@ function Resume() {
         </section>
       </div>
       <div className="coming-soon">
-        <p>Downloadable Resume Coming Soon!</p>
-        <img
-          src="/images/Screenshot-Resume.png"
-          alt="Coming Soon"
-          className="coming-soon-image"
-        />
+        <a href="/images/AdamsReact_Portfolio-Downloadable-Resume.pdf" download>
+          <p>Click here to view my downloadable Resume!</p>
+          <img
+            src="/images/Screenshot-Resume.png"
+            alt="Photo of my resume"
+            className="coming-soon-image"
+          />
+        </a>
       </div>
     </div>
   );
