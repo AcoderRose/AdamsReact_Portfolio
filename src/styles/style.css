@@ -146,13 +146,12 @@ footer {
 }
 
 .contact-container h1 {
-  margin-bottom: 50px;
   font-size: 24px;
   color: var(--dark-blue);
 }
 
 .contact-container form > div {
-  margin-bottom: 68px;
+  margin-bottom: 56px;
   text-align: left;
 }
 
