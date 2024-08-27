@@ -24,8 +24,6 @@ To install AdamsReact_Portfolio:
 
 - Launch the terminal and install the dependencies by executing the following command: `npm install`
 
-- Run the seed script, in the terminal run the command: `npm run seed`
-
 ## Usage
 
 - Start the application, in the terminal by executing the following command: `npm run start`
