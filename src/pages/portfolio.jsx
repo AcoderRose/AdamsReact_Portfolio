@@ -4,6 +4,12 @@ import "../styles/style.css";
 // Data for each project in the portfolio
 const projectData = [
   {
+    title: "PaperCut-Pals",
+    image: "/images/Screenshot-PaperCut-Pals.PNG",
+    projectLink: "https://papercut-pals.onrender.com/signin",
+    githubLink: "https://github.com/girlnotfound/PAPERCUT-PALS",
+  },
+  {
     title: "GameChaser",
     image: "/images/Screenshot-GameChaser.PNG",
     projectLink: "https://gamechaser-wlza.onrender.com/",
